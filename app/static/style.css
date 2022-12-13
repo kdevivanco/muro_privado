@@ -1,0 +1,86 @@
+.recipe-box{
+    border: 1px solid black;
+    padding: 3rem;
+}
+
+.recipe-box>*{
+    margin-bottom: 1rem;
+}
+
+.form-cont{
+    background-color: black;
+    border: 1px solid darkcyan;
+    border-radius: 1rem;
+}
+
+.btn-primary{
+    border: 1px solid darkcyan;
+    background-color:darkcyan;
+}
+
+h2{
+    color: black;
+}
+
+.sendmsg{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sendmsg .form-label{
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: cadetblue;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.sendmsg textarea{
+    width: 100%;
+    height: 5rem;
+}
+
+.sendmsg button{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    position: relative;
+    top: -2rem;
+}
+
+.message{
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.mauthor{
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid black;
+}
+.delete{
+    color: darkred;
+    font-size: 1.5rem;
+}
+
+.deletef{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3{
+    background-color: lightgray;
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
